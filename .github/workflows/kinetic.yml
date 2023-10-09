@@ -1,7 +1,9 @@
 name: VanillaOS kinetic
 
 on:
-  workflow_dispatch
+  push:
+    branches: [ "kinetic" ]
+  workflow_dispatch:
 
 jobs:
   build:

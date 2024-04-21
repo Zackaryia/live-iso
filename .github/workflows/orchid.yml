@@ -18,4 +18,4 @@ jobs:
       run: echo "CURRENT_DATE=$(date +'%Y-%m-%d')" >> "$GITHUB_ENV"
 
     - name: Hello
-      run: echo ${{ github.run.number }}
+      run: echo ${{ github.run_number }}

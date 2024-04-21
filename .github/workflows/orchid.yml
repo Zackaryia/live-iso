@@ -32,5 +32,5 @@ jobs:
 
     - uses: actions/upload-artifact@v4
       with:
-        name: VanillaOS 2 Beta ${{ env.CURRENT_DATE }} ${{ GITHUB_RUN_NUMBER }}
+        name: VanillaOS 2 Beta ${{ env.CURRENT_DATE }} ${{ github.run.number }}
         path: builds/
